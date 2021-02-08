@@ -1,0 +1,106 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPwuLnqJXVwqnENMvdadY6N",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Nalisailaja/hellopy/blob/main/Assignment%201%20Day3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "q8aDCB2kkPUp"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "uhbaYjAZkQ9q"
+      },
+      "source": [
+        "#ASSIGNMENT"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DrY5XVt2kZQ9",
+        "outputId": "19986e41-9302-48c1-8082-fccb34d0b7d7"
+      },
+      "source": [
+        "alt=4500\r\n",
+        "if alt<1000:\r\n",
+        "  print(\"Safe landing\")\r\n",
+        "elif alt<5000:\r\n",
+        "    print(\"Come down to 1000\")\r\n",
+        "else:\r\n",
+        "  print(\"Try around\")     "
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Come down to 1000\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lpfbRx74mRQy",
+        "outputId": "61534c71-a249-42ae-fe9e-5d923fe06441"
+      },
+      "source": [
+        "alt=6000\r\n",
+        "if alt<1000:\r\n",
+        "  print(\"Safe landing\")\r\n",
+        "elif alt<5000:\r\n",
+        "    print(\"Come down to 1000\")\r\n",
+        "else:\r\n",
+        "  print(\"Try around\")     "
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Try around\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
